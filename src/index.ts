@@ -28,12 +28,6 @@ async function main() {
 
     const agentResult = await securityGraph.invoke({ filePath: './package-example.json' });
     console.log(agentResult.reportPath);
-
-    /* const mermaidDiagram = await securityGraph.getGraph().drawMermaid();
-
-    console.log("Mermaid Diagram:");
-    console.log(mermaidDiagram); */
-
 }
 
 main().catch(console.error); 
