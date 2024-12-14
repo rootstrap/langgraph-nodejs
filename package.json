@@ -1,0 +1,25 @@
+{
+  "name": "dependency-scanner-agent",
+  "version": "1.0.0",
+  "description": "Langgraph Multi-Agent for automating dependency risk management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.23",
+    "@langchain/google-genai": "^0.1.5",
+    "@langchain/langgraph": "^0.2.33",
+    "@langchain/openai": "^0.3.14",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
