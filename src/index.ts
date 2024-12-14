@@ -26,7 +26,7 @@ async function main() {
     // Graph needs to be compiled before run    
     const securityGraph = builder.compile();
 
-    const agentResult = await securityGraph.invoke({ filePath: './package-example.json' });
+    const agentResult = await securityGraph.invoke({ filePath: './package.json' });
     console.log(agentResult.reportPath);
 }
 
